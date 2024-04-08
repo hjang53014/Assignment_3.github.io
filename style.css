@@ -4,30 +4,29 @@
   padding: 0;
 }
 
-/* Apply some basic styles */
 body {
-  font-family: 'Manrope', sans-serif; /* Apply Manrope font */
+  font-family: 'Manrope', sans-serif; 
   font-weight: bold;
   line-height: 3;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensures header is vertically centered on the viewport */
-  background-image: url('https://www.singulart.com/blog/wp-content/uploads/2024/02/Untitled-1982-1.jpg'); /* Add background image */
-  background-size: cover; /* Cover the entire background */
+  min-height: 100vh; 
+  background-image: url('https://www.singulart.com/blog/wp-content/uploads/2024/02/Untitled-1982-1.jpg'); 
+  background-size: cover; 
 }
 
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  text-align: center; /* Center header text */
-  border-radius: 15px; /* Rounded corners for header */
+  text-align: center; 
+  border-radius: 15px; 
 }
 
 header h1 {
   margin: 0;
-  font-family: 'Mogra', cursive; /* Apply Mogra font */
+  font-family: 'Mogra', cursive; 
   letter-spacing: 4px;
 }
 
@@ -45,7 +44,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 768px) {
   header {
     padding: 10px;
