@@ -1,59 +1,58 @@
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Apply some basic styles */
-  body {
-    font-family: 'Manrope', sans-serif; /* Apply Manrope font */
-    font-weight: bold;
-    line-height: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Ensures header is vertically centered on the viewport */
-    background-image: url('https://www.singulart.com/blog/wp-content/uploads/2024/02/Untitled-1982-1.jpg'); /* Add background image */
-    background-size: cover; /* Cover the entire background */
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles */
+body {
+  font-family: 'Manrope', sans-serif; /* Apply Manrope font */
+  font-weight: bold;
+  line-height: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures header is vertically centered on the viewport */
+  background-image: url('https://www.singulart.com/blog/wp-content/uploads/2024/02/Untitled-1982-1.jpg'); /* Add background image */
+  background-size: cover; /* Cover the entire background */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Center header text */
+  border-radius: 15px; /* Rounded corners for header */
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Mogra', cursive; /* Apply Mogra font */
+  letter-spacing: 4px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 17px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center; /* Center header text */
-    border-radius: 15px; /* Rounded corners for header */
+    padding: 10px;
   }
-  
-  header h1 {
-    margin: 0;
-    font-family: 'Mogra', cursive; /* Apply Mogra font */
-    letter-spacing: 4px;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
+
   nav ul li {
-    display: inline;
-    margin: 17px;
+    display: block;
+    margin-bottom: 10px;
   }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Media queries for responsiveness */
-  @media (max-width: 768px) {
-    header {
-      padding: 10px;
-    }
-  
-    nav ul li {
-      display: block;
-      margin-bottom: 10px;
-    }
-  }
-  
+}
